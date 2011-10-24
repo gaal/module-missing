@@ -1,0 +1,41 @@
+# Avoid version control files.
+RCS
+CVS
+SCCS
+*,v
+.svn
+*.git
+_darcs
+
+# Avoid Makemaker generated and utility files.
+MANIFEST.bak
+Makefile
+blib/
+MakeMaker-*
+pm_to_blib.ts
+pm_to_blib
+blibdirs.ts         # 6.18 through 6.25 generated this
+
+
+# Avoid temp and backup files.
+*~
+*.old
+*.bak
+
+# Avoid Devel::Cover files.
+cover_db
+
+### DEFAULT MANIFEST.SKIP ENDS HERE ####
+
+*.sw?
+
+*.t.log
+
+*.prove
+
+MANIFEST
+Makefile
+blib/
+*.swp
+pm_to_blib
+
